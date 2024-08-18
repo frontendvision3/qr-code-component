@@ -1,5 +1,12 @@
+import QrCodeComponent from "./components/QrCodeComponent";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
+    <div className="app">
+      <QrCodeComponent
+        title="Improve your front-end skills by building projects"
+        description="Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
+      />
+    </div>
   );
 }
