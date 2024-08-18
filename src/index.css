@@ -17,7 +17,7 @@ body {
   @apply rounded-2xl mb-6;
 }
 .qr_heading {
-  @apply text-xl font-bold text-gray-800 text-center my-4 mx-4 leading-tight;
+  @apply text-xl font-bold text-gray-800 text-center my-4 mx-2 leading-tight;
 }
 .qr_description {
   @apply text-sm text-slate-500 text-center mb-6 mx-4;
